@@ -13,6 +13,7 @@
 		C5832DFF2A031ACC00A4EF48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5832DFD2A031ACC00A4EF48 /* Main.storyboard */; };
 		C5832E012A031ACD00A4EF48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5832E002A031ACD00A4EF48 /* Assets.xcassets */; };
 		C5832E042A031ACD00A4EF48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5832E022A031ACD00A4EF48 /* LaunchScreen.storyboard */; };
+		C5832E0C2A031CE800A4EF48 /* iguana-landing-page-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C5832E0B2A031CE800A4EF48 /* iguana-landing-page-2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C5832E002A031ACD00A4EF48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5832E032A031ACD00A4EF48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5832E052A031ACD00A4EF48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5832E0B2A031CE800A4EF48 /* iguana-landing-page-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iguana-landing-page-2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				C5832DF92A031ACC00A4EF48 /* SceneDelegate.swift */,
 				C5832DFB2A031ACC00A4EF48 /* ViewController.swift */,
 				C5832DFD2A031ACC00A4EF48 /* Main.storyboard */,
+				C5832E0B2A031CE800A4EF48 /* iguana-landing-page-2.png */,
 				C5832E002A031ACD00A4EF48 /* Assets.xcassets */,
 				C5832E022A031ACD00A4EF48 /* LaunchScreen.storyboard */,
 				C5832E052A031ACD00A4EF48 /* Info.plist */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5832E0C2A031CE800A4EF48 /* iguana-landing-page-2.png in Resources */,
 				C5832E042A031ACD00A4EF48 /* LaunchScreen.storyboard in Resources */,
 				C5832E012A031ACD00A4EF48 /* Assets.xcassets in Resources */,
 				C5832DFF2A031ACC00A4EF48 /* Main.storyboard in Resources */,
