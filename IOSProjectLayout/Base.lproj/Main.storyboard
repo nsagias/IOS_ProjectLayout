@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,17 +13,17 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IOSProjectLayout" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Project Layout" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ze-eO-lxY">
-                                <rect key="frame" x="80" y="79" width="233" height="43"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <rect key="frame" x="80" y="70" width="215" height="40.666666666666657"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iguana-landing-page-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="FK2-aE-grJ">
-                                <rect key="frame" x="52" y="130" width="280" height="408"/>
+                                <rect key="frame" x="52" y="118.66666666666669" width="262" height="408.00000000000006"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -31,7 +31,7 @@
                         <constraints>
                             <constraint firstItem="7Ze-eO-lxY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="AxD-N3-mmW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Ze-eO-lxY" secondAttribute="trailing" constant="80" id="Ive-3F-nTW"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Ze-eO-lxY" secondAttribute="trailing" constant="80" id="Qfn-2o-GhK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Ze-eO-lxY" secondAttribute="trailing" priority="999" constant="80" id="Qfn-2o-GhK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FK2-aE-grJ" secondAttribute="trailing" constant="61" id="fde-bg-8z5"/>
                             <constraint firstItem="FK2-aE-grJ" firstAttribute="top" secondItem="7Ze-eO-lxY" secondAttribute="bottom" constant="8" id="gjC-RW-Heh"/>
                             <constraint firstItem="7Ze-eO-lxY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="nVr-U6-XCX"/>
