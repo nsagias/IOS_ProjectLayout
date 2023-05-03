@@ -23,7 +23,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iguana-landing-page-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="FK2-aE-grJ">
-                                <rect key="frame" x="52" y="118.66666666666669" width="262" height="408.00000000000006"/>
+                                <rect key="frame" x="52" y="118.66666666666669" width="262" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="LUn-C3-jnF"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
